@@ -21,5 +21,10 @@ namespace Apka
         {
             this.Close();
         }
+
+        private void informacjeOProgramieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bardzo profesjonalny program", "Informacje o programie");
+        }
     }
 }
